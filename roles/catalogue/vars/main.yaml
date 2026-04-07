@@ -1,0 +1,1 @@
+MONGODB_HOST: mongodb-{{ env }}.srini.store # mongodb-dev.srini.store

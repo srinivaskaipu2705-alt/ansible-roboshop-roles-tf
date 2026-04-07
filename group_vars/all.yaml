@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{ env }}.srini.store # mongodb-dev.srini.store
+REDIS_HOST: redis-{{ env }}.srini.store
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.srini.store
+CART_HOST: cart.backend-alb-{{ env }}.srini.store
+USER_HOST: user.backend-alb-{{ env }}.srini.store
+RABBITMQ_HOST: rabbitmq-{{ env }}.srini.store
+MYSQL_HOST: mysql-{{ env }}.srini.store
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.srini.store
+PAYMENT_HOST: payment.backend-alb-{{ env }}.srini.store
